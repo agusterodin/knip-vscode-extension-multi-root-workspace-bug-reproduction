@@ -1,0 +1,17 @@
+{
+  "extends": "../common/configurations/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "../node_modules/common/**/*.d.ts",
+    "../node_modules/common/**/*.ts",
+    "../node_modules/common/**/*.tsx",
+    "../node_modules/common/**/*.js",
+    "../node_modules/common/**/*.jsx"
+  ],
+  "exclude": ["node_modules"]
+}

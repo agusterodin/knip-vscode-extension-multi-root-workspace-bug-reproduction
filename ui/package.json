@@ -1,0 +1,35 @@
+{
+  "name": "ui",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "start": "turbo run start --parallel",
+    "knip": "knip --no-exit-code"
+  },
+  "devDependencies": {
+    "common": "link:common",
+    "knip": "^5.80.2",
+    "turbo": "^2.7.4"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "packageManager": "pnpm@10.25.0",
+  "knip": {
+    "rules": {
+      "files": "warn",
+      "dependencies": "warn",
+      "unlisted": "warn",
+      "binaries": "warn",
+      "unresolved": "warn",
+      "exports": "warn",
+      "nsExports": "warn",
+      "classMembers": "warn",
+      "types": "warn",
+      "nsTypes": "warn",
+      "enumMembers": "warn",
+      "duplicates": "warn",
+      "catalog": "warn"
+    }
+  }
+}

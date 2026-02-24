@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "name": "product1",
+      "path": "../ui/product1"
+    },
+    {
+      "name": "common",
+      "path": "../ui/common"
+    }
+  ],
+}
