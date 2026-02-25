@@ -1,3 +1,7 @@
 packages:
-  - 'product1'
-  - 'common'
+  - product1
+  - common
+
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
