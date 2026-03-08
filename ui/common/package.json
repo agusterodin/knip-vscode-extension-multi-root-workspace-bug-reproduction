@@ -4,9 +4,7 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^20.18.1",
-    "jsdom": "^27.4.0",
-    "common": "link:common",
-    "typescript": "^5.9.3",
-    "vitest": "^4.0.17"
+    "next": "^16.1.6",
+    "typescript": "^5.9.3"
   }
 }
